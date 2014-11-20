@@ -1,5 +1,6 @@
-# flatstack
+# [Flatstack](http://playingwithcode.co.za)
 
-Flat CSS-only browser windows, smart phones and tablets for showcasing projects
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com)
+[![NPM Dependencies](https://david-dm.org/laurenwaller/flatstack.png)](https://david-dm.org)
 
-http://playingwithcode.co.za/
+Flat CSS-only browser windows, smart phones and tablets for showcasing projects.
