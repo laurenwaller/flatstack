@@ -1,0 +1,18 @@
+# humanstxt.org
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Lauren Waller -- Interface Designer & Front-end Developer -- @waller_texas
+    Michael Thorne -- Front-end Web Developer -- @mikkelz_za
+
+# THANKS
+
+    Nathan Gordon -- Pablo the Flamingo -- @gordonnl
+    Pascal Van Der Haar -- Pablo the Flamingo --  @pascalsetsail
+
+# SITE
+
+    Last Update: 2014/11/24
+    Standards: HTML5, CSS3
+    Components: Grunt, LESS
