@@ -54,28 +54,10 @@
 /* Browser Stack */
 
 
-
 .browser-container--stack {
     padding: 28% 0;
     position: relative;
     width: auto;
-}
-
-@media all and (min-width: 600px) {
-
-    .browser-container--stack {
-        padding: 25% 0;
-    }
-}
-
-@media all and (min-width: 1700px) {
-
-    .browser-container--stack {
-        padding: 0;
-        height: 820px;
-        left: 50%;
-        margin-left: -683px;
-    }
 }
 
 .browser--stack {
@@ -98,4 +80,25 @@
     box-shadow: none;
     margin-left: 10%;
     z-index: 30;
+}
+
+
+/* Media Queries */
+
+
+@media all and (min-width: @bp-xs) {
+
+    .browser-container--stack {
+        padding: 25% 0;
+    }
+}
+
+@media all and (min-width: @bp-xxl) {
+
+    .browser-container--stack {
+        padding: 0;
+        height: 820px;
+        left: 50%;
+        margin-left: -683px;
+    }
 }

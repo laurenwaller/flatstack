@@ -5,13 +5,13 @@ body {
 }
 
 .section {
-    padding: 50px 0 0 0;
+    padding: 20px 0 0 0;
     position: relative;
     display: block;
 }
 
 .section--header {
-    padding: 50px;
+    padding: 20px 20px 0 20px;
 }
 
 .blue {
@@ -27,40 +27,45 @@ body {
 }
 
 h1 {
+    font-size: 25px;
+    padding: 1em;
+    margin: 0 0 20px 0;
     font-family: 'Roboto Slab', serif;
-    font-size: 40px;
     text-align: center;
     color: @grey-dark;
-    padding-bottom: 40px;
 }
 
 h2 {
     font-family: 'Roboto Slab', serif;
-    font-size: 35px;
+    font-size: 25px;
     text-align: center;
     color: @white;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
-@media all and (max-width: 768px) {
+
+/* Media Queries */
+
+
+@media all and (min-width: @bp-small) {
 
     .section {
-        padding: 20px 0 0 0;
+        padding: 50px 0 0 0;
     }
 
     .section--header {
-        padding: 20px 20px 0 20px;
+        padding: 50px;
     }
 
     h1 {
-        font-size: 25px;
-        padding: 1em;
-        margin: 0 0 20px 0;
+        font-size: 40px;
+        padding: 0 0 40px 0;
+        margin: auto;
     }
 
     h2 {
-        font-size: 25px;
-        margin-bottom: 30px;
+        font-size: 35px;
+        margin-bottom: 40px;
     }
 }
