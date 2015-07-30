@@ -1,4 +1,4 @@
-# [Flatstack](http://playingwithcode.co.za)
+# [Flatstack](http://playingwithcode.co.za/flatstack)
 
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com)
 [![Dependency Status](https://david-dm.org/laurenwaller/flatstack.svg)](https://david-dm.org/laurenwaller/flatstack)
